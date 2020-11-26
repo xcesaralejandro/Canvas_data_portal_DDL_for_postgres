@@ -10,14 +10,14 @@ Inside my repositories there is a script that allows to do the same for MySQL, b
 Simply put, postgres is better suited to adapt to hardware and handle large volumes of data compared to MySQL alongside innoDB (I did not test myisam)
 
 
-####Requirements:
+#### Requirements:
 
 - Python 3.7.9
 
 - Postgres 13
 
 
-####USE:
+#### USE:
 1) Create a database in postgres
 
 2) Load canvas_data_postgres.sql inside your database
