@@ -2119,6 +2119,7 @@ CREATE TABLE IF NOT EXISTS requests (
   "http_version" VARCHAR(256),
   "developer_key_id" BIGINT
 );
+CREATE INDEX requests_id ON requests(id);
 CREATE INDEX requests_user_id_request_index ON requests(user_id);
 CREATE INDEX requests_course_id_request_index ON requests(course_id);
 CREATE INDEX requests_wac__index ON requests(web_application_controller);
